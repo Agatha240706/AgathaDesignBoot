@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body >
+  <header class="header">
+    <!-- ela está configurada para expandir apenas em telas grandes  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+
+                    <!-- essa linha serve para é para qnd clicar no botão ele descer -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#cadas">cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#loc">Localização</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#cont">contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="div1">
+      <img src="img/design1.png" alt="" style="width: 100%;">
+
+    </div>
+
+    <div class="container-fluid div2">
+      <div class="row ">
+        <div class="col-md-6" >
+          <img src="img/desgn2.png" alt="" style="width: 420px;">
+        </div>
+        <div class="col-md-6">
+          <p>Os Designs Gráficos antigamente eram feitos de formas diferente do que vemos nos dias atuais:</p><br>
+          <p> Desenho à mão: Antes da era digital, a criação de designs gráficos começava com lápis, papel e técnicas de
+            desenho à mão.</p><br>
+          <p>Fotocomposição: Com o tempo, máquinas de fotocomposição foram introduzidas, permitindo que os designers
+            criassem layouts com base em fotografias de caracteres tipográficos.</p><br>
+          <p>
+            Cortes e colagens: Montagens de imagens eram frequentemente criadas recortando fotografias e ilustrações e
+            colando-as manualmente em um layout de design.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid div3">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i>Portfólio</i></p>
+        </div>
+      </div>
+  <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/embalagem 1.png" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/embalagem2.png" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/embalagem3.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fuid div4" id="cadas">
+      <div class="row justify-content-center ">
+          <div class="col-md-6">
+              <div class="card">
+                  <div class="card-header">
+                      <h4>Cadastro</h4>
+                  </div>
+                  <div class="body ">
+                      <form  method="post">
+                          <div class="cad">
+                              <label for="nome">Nome:</label>
+                              <input type="text" class="form-control" id="nome" name="nome" required>
+                          </div>
+  
+                          <div class="cad">
+                              <label for="email">E-mail:</label>
+                              <input type="email" class="form-control" id="email" name="email" required>
+                          </div>
+  
+                          <div class="cad">
+                              <label for="senha">Senha:</label>
+                              <input type="password" class="form-control" id="senha" name="senha" required>
+                          </div>
+  
+                          <button type="button" onclick="alert('Você foi cadastrado com sucesso')" class="btn btn-primary botao">Cadastrar</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid div5" >
+  <div class="row text-center">
+      <div class="col-md-4">
+        <img src="img/curso1.png" alt="">
+        <p>Administração de Design</p>
+        <p class="preco">R$190,90 por 4 meses</p>
+        <button type="submit" onclick="alert('Parabéns você começou o curso de administração, suas aulas começam dia 27/11 ')" class="btn btn-primary botao1">Escolha</button>
+      </div>
+      <div class="col-md-4">
+        <img src="img/curso2.png" alt="">
+        <p>Design tecnico</p>
+        <p class="preco">R$243,50 por 6 meses</p>
+        <button type="submit" onclick="alert('Parabéns você começou o curso de Design tecnico, suas aulas começam dia 27/11 ') "class="btn btn-primary botao1">Escolha</button>
+      </div>
+      <div class="col-md-4">
+        <img src="img/curso3.png" alt="">
+        <p>Design Gráfico</p>
+        <p class="preco">R$450,90 anual</p>
+        <button type="submit" onclick="alert('Parabéns você começou o curso de Design Gráfico, suas aulas começam dia 27/11 ') "class="btn btn-primary botao1">Escolha</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="padding: 0px;">
+  <div class="row p-5">
+  <div class="col-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14869.512057305497!2d-50.33787230340106!3d-21.296074573465773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssesi%20birigui!5e0!3m2!1spt-BR!2sbr!4v1695384244665!5m2!1spt-BR!2sbr" width="550" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="col-6 formulario" id="loc">
+    <h4> <b style="font-size: 34px;"> FALE CONOSCO </b> </h4>
+    <form>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1">Informe seu nome</label>
+            <input class="form-control" id="exampleFormControlInput1" placeholder="Ex: Jose Antônio">
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefone para contato</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex: (18) 99696-7878">
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Sua mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Informe aqui sua mensagem" rows="3"></textarea>
+        </div>
+    </form>
+    <br>
+    <button type="button" class="btn btn-danger botao2" 
+    style="border-radius: 50px; 
+    color: #FFD704;
+    width:140px">
+    <strong >ENVIAR</strong></button>
+</div>
+  </div>
+
+
+  <div class="row">
+    <footer class="amarelo py-3" id="cont">
+      <div class="a">
+          <p style="height: auto;"> <i class="fa-solid fa-burger"></i>Estação Design Gráfico</p>
+      </div>
+      <div class="a">
+          <p>(18) 99123-1234 / (18) 3636-3636</p>
+          <p>Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
+    </div>
+    </footer>
+  </div>
+  </main>
+</body>
+
+</html>
